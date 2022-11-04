@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Form id="formulario">
+        <div>
+            <div>
+                <label for="FName">First Name: *</label>
+                <input type="text" name="FName" id="FName">
+            </div><br>
+            <div>
+                <label for="LName">Last Name: *</label>
+                <input type="text" name="LName" id="LName">
+            </div><br>
+            <div>
+                <label for="EAddress">Email Address: *</label>
+                <input type="text" name="EAddress" id="EAddress">
+            </div><br>
+            <div>
+                <label for="Pass">Password: *</label>
+                <input type="password" name="Pass" id="Pass">
+            </div><br>
+            <div>
+                <label for="CPass">Confirm Password: *</label>
+                <input type="password" name="CPass" id="CPass">
+            </div><br>
+            <div>
+                <label for="Birthday">Birthday:</label>
+                <input type="date" name="Birthday" id="Birthday">
+            </div><br>
+            <div>
+                <label>Gender Identity:</label>
+            </div>
+            <div>
+                <input type="radio" name="GIdentity" id="Male"    value="Male"><label for="Male">Male</label>
+                <input type="radio" name="GIdentity" id="Female"  value="Female"><label for="Female">Female</label>
+                <input type="radio" name="GIdentity" id="NBinary" value="NBinary"><label for="NBinary">Non-binary</label>
+                <input type="radio" name="GIdentity" id="NAnswer" value="NAnswer"><label for="NAnswer">I prefer not to answer</label>
+            </div><br>
+            <div>
+                <label for="MySelf">A short description about myself:</label>
+            </div>
+            <div>
+                <textarea name="MySelf" id="MySelf" cols="30" rows="3"></textarea>
+            </div><br>
+            <div>
+                <label for="Language">Favorite Language:</label>
+                <select name="Language" id="Language">
+                    <option>JavaScript</option>
+                </select>
+            </div><br>
+            <div>
+                <input type="checkbox" name="Email" id="Email" value="S"><label for="Email">Yes, I would like to receive periodic email updates</label>
+            </div><br>
+            <input type="button" name="BSumit" id="BSumit" value="Create Account">
+        </div>
+    </Form>
+</body>
+</html>
